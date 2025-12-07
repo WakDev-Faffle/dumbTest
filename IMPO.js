@@ -1,4 +1,4 @@
-export default function (message, timeout) {
+export function sendMessage(message, timeout) {
 	setTimeout(() => window.alert(message), timeout);
 	console.log('success !');
 }
